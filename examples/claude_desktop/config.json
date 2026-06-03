@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "growi": {
+      "command": "uv",
+      "args": ["--directory", "/path/to/growi-mcp-server", "run", "growi-mcp-server"],
+      "env": {
+        "GROWI_BASE_URL": "https://wiki.example.com",
+        "GROWI_ACCESS_TOKEN": "your_access_token_here",
+        "GROWI_CONTENT_ROOT": "/path/to/your/wiki-content",
+        "GROWI_ENABLE_WRITE_TOOLS": "true"
+      }
+    }
+  }
+}
